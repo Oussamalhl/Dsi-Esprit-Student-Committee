@@ -5,24 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d70054-5db1-48d4-bbe5-95e220d82039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/JwtAuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/JwtUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/SpringBootDSIApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/JwtAuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +63,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Esprit DSI/dsi.esprit",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "19fc119294ee7d98597a4ee04733c274"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692705464685</updated>
-      <workItem from="1692705466654" duration="7174000" />
+      <workItem from="1692705466654" duration="7766000" />
+      <workItem from="1693222745716" duration="5018000" />
+      <workItem from="1693303561644" duration="11194000" />
     </task>
     <servers />
   </component>
