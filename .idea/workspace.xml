@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d70054-5db1-48d4-bbe5-95e220d82039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/Authentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/JwtAuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/JwtUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Services/UserDetailsServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Esprit DSI/dsi.esprit",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "19fc119294ee7d98597a4ee04733c274"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Esprit DSI/dsi.esprit&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;19fc119294ee7d98597a4ee04733c274&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Thrall\Desktop\Esprit DSI\dsi.esprit\src\main\java\dsi\esprit\tn" />
@@ -108,7 +109,9 @@
       <updated>1692705464685</updated>
       <workItem from="1692705466654" duration="7766000" />
       <workItem from="1693222745716" duration="5018000" />
-      <workItem from="1693303561644" duration="11194000" />
+      <workItem from="1693303561644" duration="11773000" />
+      <workItem from="1693833934091" duration="9422000" />
+      <workItem from="1693913858914" duration="5870000" />
     </task>
     <servers />
   </component>
