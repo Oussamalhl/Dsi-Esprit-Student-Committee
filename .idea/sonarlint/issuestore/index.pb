@@ -17,8 +17,6 @@ m
 ,src/main/java/dsi/esprit/tn/Models/User.java,4\2\42a4e6f0e138e8038f1e3ec78015204797fc252d
 k
 ;src/main/java/dsi/esprit/tn/Controllers/TestController.java,f\b\fb8d9c01b6df3e8d404e805c743d8eed10a9ddb1
-u
-Esrc/main/java/dsi/esprit/tn/Controllers/AuthenticationController.java,5\2\52a9bc42d24bcc1431a083fde118b55c6b1a511c
 \
 ,src/main/java/dsi/esprit/tn/models/Role.java,5\a\5a5620c41d257541e7ea4f7c194992921ad7ddff
 n
@@ -41,17 +39,3 @@ m
 =src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java,c\4\c4a70d0442d11d18e1d951637088585b4588b8b3
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-\
-,src/main/java/dsi/esprit/tn/models/User.java,2\4\24b90ed5d9d46649f4dd972a130c2f9eaaa79bb3
-]
--src/main/java/dsi/esprit/tn/models/ERole.java,9\d\9dbc49a77a5a3a516e821227f1972d3112a533ca
-j
-:src/main/java/dsi/esprit/tn/repository/RoleRepository.java,f\8\f8cd130848e66eff5dca55062a0d16b5dd7bbe03
-k
-;src/main/java/dsi/esprit/tn/controllers/AuthController.java,e\4\e4da9033f600923bf9d195c2deb4776df1ffd0b0
-k
-;src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java,5\1\519dacf2406a0f9414007f0b75da62fb5b027804
-f
-6src/main/java/dsi/esprit/tn/security/jwt/JwtUtils.java,a\8\a8816ba66820e2108daab8f6cf9837bc6a0c2ce1
-k
-;src/main/java/dsi/esprit/tn/controllers/TestController.java,8\8\883e675f3ea72705d6ef08d42c850c953e4ea4ef

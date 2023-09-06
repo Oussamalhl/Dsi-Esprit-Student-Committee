@@ -1,16 +1,0 @@
-
-u
-java:S1192i"ZDefine a constant instead of duplicating this literal "Error: Role is not found." 4 times.(ÉÿÊ–ùÿÿÿÿ
-G
-java:S5411S"*Use the primitive boolean expression here.(‡Ö…²8¤±ü‚¦1
-G
-java:S5411Y"*Use the primitive boolean expression here.(Œ‰ÓŒ8¥±ü‚¦1
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àãşüÿÿÿÿ
-<
-java:S1452="&Remove usage of generic wildcard type.(—­è€
-h
-java:S1612G"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½8”µü‚¦1
-A
-java:S1452R"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ
-k
-java:S1128"IRemove this unused import 'dsi.esprit.tn.Services.JwtUserDetailsService'.(Ôôí™úÿÿÿÿ8†¶ü‚¦1
