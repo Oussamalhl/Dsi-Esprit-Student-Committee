@@ -1,4 +1,4 @@
-package dsi.esprit.tn.models;
+package dsi.esprit.tn.Models;
 
 public enum ERole {
   ROLE_USER,

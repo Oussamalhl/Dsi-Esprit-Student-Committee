@@ -1,4 +1,4 @@
-package dsi.esprit.tn.payload.request;
+package dsi.esprit.tn.Payload.Request;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

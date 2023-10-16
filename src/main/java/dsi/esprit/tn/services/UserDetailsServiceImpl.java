@@ -1,4 +1,4 @@
-package dsi.esprit.tn.security.services;
+package dsi.esprit.tn.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,11 +7,12 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import dsi.esprit.tn.models.User;
+import dsi.esprit.tn.Models.User;
 import dsi.esprit.tn.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
+
   @Autowired
   UserRepository userRepository;
 
@@ -22,6 +23,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         .orElseThrow(() -> new UsernameNotFoundException("User Not Found with username: " + username));
 
     return UserDetailsImpl.build(user);
+  }
+
+  public UserDetailsServiceImpl(UserRepository repository) {
+    this.userRepository = repository;
   }
 
 }

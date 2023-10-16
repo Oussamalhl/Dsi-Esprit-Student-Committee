@@ -1,4 +1,4 @@
-package dsi.esprit.tn.security.services;
+package dsi.esprit.tn.services;
 
 import java.util.Collection;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import dsi.esprit.tn.models.User;
+import dsi.esprit.tn.Models.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class UserDetailsImpl implements UserDetails {

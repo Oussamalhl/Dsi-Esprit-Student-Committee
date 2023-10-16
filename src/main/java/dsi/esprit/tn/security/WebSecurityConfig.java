@@ -1,9 +1,12 @@
 package dsi.esprit.tn.security;
 
+import dsi.esprit.tn.repository.UserRepository;
 import dsi.esprit.tn.security.jwt.AuthEntryPointJwt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 //import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -21,7 +24,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import dsi.esprit.tn.security.jwt.AuthTokenFilter;
-import dsi.esprit.tn.security.services.UserDetailsServiceImpl;
+import dsi.esprit.tn.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity
@@ -35,6 +38,14 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
 
   @Autowired
   private AuthEntryPointJwt unauthorizedHandler;
+
+
+
+  @Bean
+  @Autowired
+  public UserDetailsServiceImpl userDetailsService(UserRepository repository) {
+    return new UserDetailsServiceImpl(repository);
+  }
 
   @Bean
   public AuthTokenFilter authenticationJwtTokenFilter() {
@@ -89,16 +100,16 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
     http.csrf(csrf -> csrf.disable())
         .exceptionHandling(exception -> exception.authenticationEntryPoint(unauthorizedHandler))
         .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-        .authorizeHttpRequests(auth -> 
+        .authorizeHttpRequests(auth ->
           auth.antMatchers("/api/auth/**").permitAll()
               .antMatchers("/api/test/**").permitAll()
               .anyRequest().authenticated()
         );
-    
+
     http.authenticationProvider(authenticationProvider());
 
     http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
-    
+
     return http.build();
   }
 }

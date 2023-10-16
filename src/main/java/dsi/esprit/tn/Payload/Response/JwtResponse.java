@@ -1,4 +1,4 @@
-package dsi.esprit.tn.payload.response;
+package dsi.esprit.tn.Payload.Response;
 
 import java.util.List;
 

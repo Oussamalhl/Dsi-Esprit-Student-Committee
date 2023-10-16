@@ -1,4 +1,4 @@
-package dsi.esprit.tn.controllers;
+package dsi.esprit.tn.Controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -23,15 +23,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dsi.esprit.tn.models.ERole;
-import dsi.esprit.tn.models.Role;
-import dsi.esprit.tn.models.User;
-import dsi.esprit.tn.payload.request.LoginRequest;
-import dsi.esprit.tn.payload.request.SignupRequest;
-import dsi.esprit.tn.payload.response.JwtResponse;
-import dsi.esprit.tn.payload.response.MessageResponse;
+import dsi.esprit.tn.Models.ERole;
+import dsi.esprit.tn.Models.Role;
+import dsi.esprit.tn.Models.User;
+import dsi.esprit.tn.Payload.Request.LoginRequest;
+import dsi.esprit.tn.Payload.Request.SignupRequest;
+import dsi.esprit.tn.Payload.Response.JwtResponse;
+import dsi.esprit.tn.Payload.Response.MessageResponse;
 import dsi.esprit.tn.repository.UserRepository;
-import dsi.esprit.tn.security.services.UserDetailsImpl;
+import dsi.esprit.tn.services.UserDetailsImpl;
 
 import javax.validation.Valid;
 
