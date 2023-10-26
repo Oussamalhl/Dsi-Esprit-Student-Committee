@@ -1,15 +1,15 @@
 
 u
 java:S1192f"ZDefine a constant instead of duplicating this literal "Error: Role is not found." 4 times.(ÉÿÊ–ùÿÿÿÿ
-G
-java:S5411P"*Use the primitive boolean expression here.(‡Ö…²8è™± ²1
-G
-java:S5411V"*Use the primitive boolean expression here.(Œ‰ÓŒ8è™± ²1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àãşüÿÿÿÿ8…¾´Ş­1
+@
+java:S5411P"*Use the primitive boolean expression here.(‡Ö…²
+@
+java:S5411V"*Use the primitive boolean expression here.(Œ‰ÓŒ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àãşüÿÿÿÿ
 <
 java:S1452:"&Remove usage of generic wildcard type.(—­è€
-h
-java:S1612D"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½8¢ËóŞ­1
+a
+java:S1612D"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½
 A
 java:S1452O"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ
 B

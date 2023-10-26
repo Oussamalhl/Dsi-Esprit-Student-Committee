@@ -53,6 +53,7 @@ public class JpaConfig {
         dataSource.setPassword(environment
                 .getRequiredProperty(PROPERTY_NAME_DATABASE_PASSWORD));
 
+
         return dataSource;
     }
 

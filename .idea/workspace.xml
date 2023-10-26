@@ -5,43 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d70054-5db1-48d4-bbe5-95e220d82039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JpaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d7e32effa3cc05bd09d3e0960fd4cbb6123aa82" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30657366f89a4896134106a6b53e476ac587dbf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/323ea9768e06149eda71ae8c96deff36a9ad036e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32fa7747ea855d89308a4dbbd3826fceabd3b8e9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c73e25f9576f89843f678680e78fb9ad84a69fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42a4e6f0e138e8038f1e3ec78015204797fc252d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42a4e6f0e138e8038f1e3ec78015204797fc252d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4861ea432c10de10ce68f4a044e96cf032023468" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/743553c7de1e49eaea24d2ef7e19ade8f39b223c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fa417d4fdbb78adcf5374ab35dd0400137fa36b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0923c1fd83291a6253d382affc3c93bc37295bf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0923c1fd83291a6253d382affc3c93bc37295bf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df276fd2e4bac6012c1dda51d7feece2fb14529d" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18703cb4ceaca50fc90ca36f772c2384316b16f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18703cb4ceaca50fc90ca36f772c2384316b16f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/323ea9768e06149eda71ae8c96deff36a9ad036e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/323ea9768e06149eda71ae8c96deff36a9ad036e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32fa7747ea855d89308a4dbbd3826fceabd3b8e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32fa7747ea855d89308a4dbbd3826fceabd3b8e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c73e25f9576f89843f678680e78fb9ad84a69fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c73e25f9576f89843f678680e78fb9ad84a69fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/519dacf2406a0f9414007f0b75da62fb5b027804" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/933db28da349a206fc97c75006ce1dfd47803cb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/933db28da349a206fc97c75006ce1dfd47803cb7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8816ba66820e2108daab8f6cf9837bc6a0c2ce1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8816ba66820e2108daab8f6cf9837bc6a0c2ce1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb8d9c01b6df3e8d404e805c743d8eed10a9ddb1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd967c7723189391eac74859890c36889ca9f43c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd967c7723189391eac74859890c36889ca9f43c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd967c7723189391eac74859890c36889ca9f43c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Request/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Payload/Response/MessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/SpringBootDSIApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/SpringBootDSIApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/JwtUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/services/UserDetailsImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/services/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Config/JpaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,27 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Thrall/Downloads/netflix-zuul-api-gateway-server",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "spring.configuration.checksum": "6c320a4f3cbcf97be0c135e08f26f661"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Esprit DSI/dsi.esprit/Dsi-Esprit-Student-Committee&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6c320a4f3cbcf97be0c135e08f26f661&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Esprit DSI\dsi.esprit\Dsi-Esprit-Student-Committee\.idea" />
+      <recent name="E:\Esprit DSI\dsi.esprit\Dsi-Esprit-Student-Committee\target\generated-sources" />
+      <recent name="E:\Esprit DSI\dsi.esprit\Dsi-Esprit-Student-Committee" />
       <recent name="C:\Users\Thrall\Desktop\Esprit DSI\dsi.esprit\src\main\java\dsi\esprit\tn" />
     </key>
   </component>
@@ -156,6 +138,24 @@
       <workItem from="1697032836524" duration="1095000" />
       <workItem from="1697060729669" duration="357000" />
       <workItem from="1697107699761" duration="7746000" />
+      <workItem from="1697452608645" duration="918000" />
+      <workItem from="1697714033264" duration="517000" />
+      <workItem from="1697804272688" duration="1726000" />
+      <workItem from="1697806051119" duration="6094000" />
+      <workItem from="1697818474788" duration="908000" />
+      <workItem from="1697892385052" duration="2793000" />
+      <workItem from="1697895243936" duration="798000" />
+      <workItem from="1698062668450" duration="4597000" />
+      <workItem from="1698155163876" duration="9430000" />
+      <workItem from="1698186606341" duration="5000" />
+      <workItem from="1698187525352" duration="2319000" />
+      <workItem from="1698231759107" duration="6357000" />
+      <workItem from="1698238173319" duration="6643000" />
+      <workItem from="1698246688330" duration="4591000" />
+      <workItem from="1698329888602" duration="2515000" />
+      <workItem from="1698332484422" duration="34000" />
+      <workItem from="1698333192706" duration="742000" />
+      <workItem from="1698336562581" duration="1774000" />
     </task>
     <servers />
   </component>
