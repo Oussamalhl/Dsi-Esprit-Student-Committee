@@ -35,7 +35,7 @@ import dsi.esprit.tn.services.UserDetailsImpl;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
@@ -104,13 +104,13 @@ public class AuthController {
     } else {
       strRoles.forEach(role -> {
         switch (role) {
-          case "admin":
+          case "ROLE_ADMIN":
             Role adminRole = roleRepository.findByName(ERole.ROLE_ADMIN)
                     .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
             roles.add(adminRole);
 
             break;
-          case "mod":
+          case "ROLE_MODERATOR":
             Role modRole = roleRepository.findByName(ERole.ROLE_MODERATOR)
                     .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
             roles.add(modRole);
