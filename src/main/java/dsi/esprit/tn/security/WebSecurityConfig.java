@@ -102,7 +102,7 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
         .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .authorizeHttpRequests(auth ->
           auth.antMatchers("/api/auth/**").permitAll()
-              .antMatchers("/api/test/**").permitAll()
+              .antMatchers("/api/test/**").permitAll().antMatchers("/authentication-ms/api/**").permitAll()
               .anyRequest().authenticated()
         );
 

@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d70054-5db1-48d4-bbe5-95e220d82039" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18703cb4ceaca50fc90ca36f772c2384316b16f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/743553c7de1e49eaea24d2ef7e19ade8f39b223c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8816ba66820e2108daab8f6cf9837bc6a0c2ce1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4861ea432c10de10ce68f4a044e96cf032023468" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/519dacf2406a0f9414007f0b75da62fb5b027804" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4a70d0442d11d18e1d951637088585b4588b8b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb8d9c01b6df3e8d404e805c743d8eed10a9ddb1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/Controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Esprit DSI/Zuul&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Esprit DSI/Eureka/gs-service-registration-and-discovery-main/complete/eureka-service&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -160,6 +160,15 @@
       <workItem from="1698682132690" duration="2821000" />
       <workItem from="1698754573461" duration="5324000" />
       <workItem from="1698841492837" duration="5101000" />
+      <workItem from="1698934737091" duration="3326000" />
+      <workItem from="1699015335449" duration="3203000" />
+      <workItem from="1699185610721" duration="2167000" />
+      <workItem from="1699190763933" duration="52000" />
+      <workItem from="1699191112912" duration="823000" />
+      <workItem from="1699194018671" duration="235000" />
+      <workItem from="1699623430921" duration="5411000" />
+      <workItem from="1699882679769" duration="7067000" />
+      <workItem from="1699968723101" duration="1882000" />
     </task>
     <servers />
   </component>
