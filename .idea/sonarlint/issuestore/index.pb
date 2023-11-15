@@ -42,13 +42,3 @@ m
 =src/main/java/dsi/esprit/tn/security/jwt/AuthTokenFilter.java,c\4\c4a70d0442d11d18e1d951637088585b4588b8b3
 f
 6src/main/java/dsi/esprit/tn/security/jwt/JwtUtils.java,a\8\a8816ba66820e2108daab8f6cf9837bc6a0c2ce1
-k
-;src/main/java/dsi/esprit/tn/security/WebSecurityConfig.java,5\1\519dacf2406a0f9414007f0b75da62fb5b027804
-i
-9src/main/java/dsi/esprit/tn/SpringBootDSIApplication.java,4\8\4861ea432c10de10ce68f4a044e96cf032023468
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-k
-;src/main/java/dsi/esprit/tn/Controllers/AuthController.java,1\8\18703cb4ceaca50fc90ca36f772c2384316b16f6
-k
-;src/main/java/dsi/esprit/tn/Controllers/TestController.java,f\b\fb8d9c01b6df3e8d404e805c743d8eed10a9ddb1
