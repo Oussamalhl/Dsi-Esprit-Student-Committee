@@ -15,6 +15,11 @@ public class TestController {
     return "Public Content.";
   }
 
+  @GetMapping("/auth")
+  public String authTest() {
+    return "Authorized.";
+  }
+
   @GetMapping("/user")
   @PreAuthorize("hasRole('ROLE_USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
   public String userAccess() {
@@ -30,6 +35,6 @@ public class TestController {
   @GetMapping("/admin")
   @PreAuthorize("hasRole('ADMIN')")
   public String adminAccess() {
-    return "Admin Board.";
+    return "admin";
   }
 }
