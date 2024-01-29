@@ -1,9 +1,5 @@
 package dsi.esprit.tn.Models;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import dsi.esprit.tn.Models.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,6 +9,8 @@ import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -48,6 +46,8 @@ public class User {
           inverseJoinColumns = @JoinColumn(name = "role_id"))
   private Set<Role> roles = new HashSet<>();
 
+//  @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+//  List<Reclamation> reclamations;
 
   public User(String username, String email, String password) {
     this.username = username;

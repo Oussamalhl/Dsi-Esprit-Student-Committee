@@ -1,13 +1,12 @@
 package dsi.esprit.tn.Controllers;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
-import dsi.esprit.tn.repository.RoleRepository;
-
+import dsi.esprit.tn.Payload.Request.SignupRequest;
+import dsi.esprit.tn.security.UserDetailsImpl;
 import dsi.esprit.tn.security.jwt.JwtUtils;
+import dsi.esprit.tn.services.IUserServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseCookie;
@@ -23,15 +22,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dsi.esprit.tn.Models.ERole;
-import dsi.esprit.tn.Models.Role;
-import dsi.esprit.tn.Models.User;
 import dsi.esprit.tn.Payload.Request.LoginRequest;
-import dsi.esprit.tn.Payload.Request.SignupRequest;
 import dsi.esprit.tn.Payload.Response.JwtResponse;
 import dsi.esprit.tn.Payload.Response.MessageResponse;
-import dsi.esprit.tn.repository.UserRepository;
-import dsi.esprit.tn.services.UserDetailsImpl;
 
 import javax.validation.Valid;
 
@@ -42,17 +35,15 @@ public class AuthController {
   @Autowired
   AuthenticationManager authenticationManager;
 
-  @Autowired
-  UserRepository userRepository;
-
-  @Autowired
-  RoleRepository roleRepository;
 
   @Autowired
   PasswordEncoder encoder;
 
   @Autowired
   JwtUtils jwtUtils;
+
+  @Autowired
+  private IUserServiceFeign userServiceFeign;
 
   @PostMapping("/signin")
   public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
@@ -77,56 +68,8 @@ public class AuthController {
 
   @PostMapping("/signup")
   public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
-    if (userRepository.existsByUsername(signUpRequest.getUsername())) {
-      return ResponseEntity
-              .badRequest()
-              .body(new MessageResponse("Error: Username is already taken!"));
-    }
 
-    if (userRepository.existsByEmail(signUpRequest.getEmail())) {
-      return ResponseEntity
-              .badRequest()
-              .body(new MessageResponse("Error: Email is already in use!"));
-    }
-
-    // Create new user's account
-    User user = new User(signUpRequest.getUsername(),
-            signUpRequest.getEmail(),
-            encoder.encode(signUpRequest.getPassword()));
-
-    Set<String> strRoles = signUpRequest.getRole();
-    Set<Role> roles = new HashSet<>();
-
-    if (strRoles == null) {
-      Role userRole = roleRepository.findByName(ERole.ROLE_USER)
-              .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
-      roles.add(userRole);
-    } else {
-      strRoles.forEach(role -> {
-        switch (role) {
-          case "ROLE_ADMIN":
-            Role adminRole = roleRepository.findByName(ERole.ROLE_ADMIN)
-                    .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
-            roles.add(adminRole);
-
-            break;
-          case "ROLE_MODERATOR":
-            Role modRole = roleRepository.findByName(ERole.ROLE_MODERATOR)
-                    .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
-            roles.add(modRole);
-
-            break;
-          default:
-            Role userRole = roleRepository.findByName(ERole.ROLE_USER)
-                    .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
-            roles.add(userRole);
-        }
-      });
-    }
-
-    user.setRoles(roles);
-    userRepository.save(user);
-
+    userServiceFeign.registerUser(signUpRequest);
     return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
   }
 
