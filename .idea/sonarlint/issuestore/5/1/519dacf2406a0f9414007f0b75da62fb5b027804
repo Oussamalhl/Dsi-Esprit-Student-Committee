@@ -1,18 +1,0 @@
-
-V	java:S125"<This block of commented-out lines of code should be removed.(İÍîúÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(§‹ªÕıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(‚ÜÌ„şÿÿÿÿ
-h
-java:S3305("RInject this field value directly into "filterChain", the only method that uses it.(†€Ú³
-x
-java:S3305%"]Inject this field value directly into "authenticationProvider", the only method that uses it.(ñÊ®¤ùÿÿÿÿ
-V	java:S125#"<This block of commented-out lines of code should be removed.(ì–Ùúÿÿÿÿ
-V	java:S1258"<This block of commented-out lines of code should be removed.(­¼èÿÿÿÿÿ
-V	java:S125H"<This block of commented-out lines of code should be removed.(ı£ËÚùÿÿÿÿ
-V	java:S125W"<This block of commented-out lines of code should be removed.(¸¢˜Ïøÿÿÿÿ
-g
-java:S1612d"LReplace this lambda with method reference 'AbstractHttpConfigurer::disable'.(¹¥ë¹øÿÿÿÿ
-ƒ
-java:S1128"aRemove this unused import 'org.springframework.data.jpa.repository.config.EnableJpaRepositories'.(²œ˜üÿÿÿÿ8“İ‘úÌ1
-t
-java:S1128	"WRemove this unused import 'org.springframework.orm.hibernate5.LocalSessionFactoryBean'.(ÏÒÅÑ8“İ‘úÌ1
