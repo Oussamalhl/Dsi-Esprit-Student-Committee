@@ -1,4 +1,4 @@
-FROM openjdk:18-jdk-alpine3.14
+FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 EXPOSE 8081
 ARG JAR_FILE=target/dsi.esprit-1.0-SNAPSHOT.jar

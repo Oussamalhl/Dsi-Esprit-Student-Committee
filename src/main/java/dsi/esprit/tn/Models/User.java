@@ -36,6 +36,8 @@ public class User {
   @Email
   private String email;
 
+  private Boolean sexe;
+
   @NotBlank
   @Size(max = 120)
   private String password;
@@ -49,10 +51,11 @@ public class User {
 //  @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 //  List<Reclamation> reclamations;
 
-  public User(String username, String email, String password) {
+  public User(String username, String email, String password, Boolean sexe) {
     this.username = username;
     this.email = email;
     this.password = password;
+    this.sexe = sexe;
   }
 }
 

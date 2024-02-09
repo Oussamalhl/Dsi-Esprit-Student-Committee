@@ -16,11 +16,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import dsi.esprit.tn.Payload.Request.LoginRequest;
 import dsi.esprit.tn.Payload.Response.JwtResponse;
@@ -68,9 +64,12 @@ public class AuthController {
 
   @PostMapping("/signup")
   public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
-
     userServiceFeign.registerUser(signUpRequest);
     return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
+  }
+  @GetMapping("/usermstest")
+  public ResponseEntity<?> usermsTest() {
+    return ResponseEntity.ok(userServiceFeign.usermsTest());
   }
 
   @PostMapping("/signout")

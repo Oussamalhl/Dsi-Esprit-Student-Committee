@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.validation.Valid;
 
-@RibbonClient(name="localhost")
-@FeignClient(name = "localhost", url = "http://localhost:8082")
+@RibbonClient(name="zuul")
+@FeignClient(name = "zuul", url = "http://zuul-ms:8765")
 public interface IUserServiceFeign {
-    @PostMapping("/api/user/signup")
+    @PostMapping("/userservice-ms/api/user/auth/signup")
     ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signupRequest);
-    @GetMapping("/api/user/test")
+    @GetMapping("/userservice-ms/api/user/test")
     String usermsTest();
 }
