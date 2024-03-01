@@ -7,11 +7,15 @@ import java.util.Set;
 
 
 public class SignupRequest {
-  @NotBlank
   @Size(min = 3, max = 20)
   private String username;
 
-  @NotBlank
+
+
+  @Size(min = 3, max = 20)
+  private String firstName;
+  @Size(min = 3, max = 20)
+  private String lastName;
   @Size(max = 50)
   @Email
   private String email;
@@ -19,11 +23,30 @@ public class SignupRequest {
   private Boolean sexe;
   private Set<String> role;
 
-  @NotBlank
   @Size(min = 6, max = 40)
   private String password;
 
+  public SignupRequest(String username, String firstName, String lastName, String email, Boolean sexe, String password) {
+    this.username = username;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.email = email;
+    this.sexe = sexe;
+    this.password = password;
+  }
+  public String getFirstName(){return this.firstName;}
+  public String getLastName(){return this.lastName;}
+  public void setFirtName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  public void setLastname(String lastName) {
+    this.lastName = lastName;
+  }
+
   public Boolean getSexe(){return this.sexe;}
+
+  public void setSexe(Boolean sexe){this.sexe = sexe;}
   public String getUsername() {
     return username;
   }
