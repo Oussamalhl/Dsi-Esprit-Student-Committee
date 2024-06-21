@@ -12,6 +12,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import java.security.Key;
+import java.util.Arrays;
 import java.util.Date;
 
 @Component
@@ -33,8 +34,8 @@ public class JwtUtils {
   }
 
   public String getUserNameFromJwtToken(String token) {
-    return Jwts.parserBuilder().setSigningKey(key()).build()
-               .parseClaimsJws(token).getBody().getSubject();
+    return Arrays.asList(Jwts.parserBuilder().setSigningKey(key()).build()
+            .parseClaimsJws(token).getBody().getSubject().split(",", -1)).get(0);
   }
   public String generateJwtToken(Authentication authentication) {
 

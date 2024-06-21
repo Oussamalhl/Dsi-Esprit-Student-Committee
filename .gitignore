@@ -11,7 +11,7 @@
 *.iws
 *.iml
 *.ipr
-
+.m2/**
 ### Eclipse ###
 .apt_generated
 .classpath

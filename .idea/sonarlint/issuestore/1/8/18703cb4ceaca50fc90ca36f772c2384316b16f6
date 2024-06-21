@@ -1,12 +1,14 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àãşüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(—„ÎŒÿÿÿÿÿ
 <
-java:S1452-"&Remove usage of generic wildcard type.(—­è€
-h
-java:S16127"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½8øµÃ¦Ö1
+java:S14523"&Remove usage of generic wildcard type.(—­è€
+Q	java:S125-"<This block of commented-out lines of code should be removed.(áõƒš
+a
+java:S1612="KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(¡©é½
 A
-java:S1452B"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ
+java:S1452H"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ
 A
-java:S1452G"&Remove usage of generic wildcard type.(ıêïüÿÿÿÿ
-H
-java:S1452L"&Remove usage of generic wildcard type.(±Æ®—úÿÿÿÿ8¢Òø¦Ö1
+java:S1452M"&Remove usage of generic wildcard type.(ıêïüÿÿÿÿ
+A
+java:S1452R"&Remove usage of generic wildcard type.(±Æ®—úÿÿÿÿ

@@ -3,6 +3,7 @@ package dsi.esprit.tn.Controllers;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//import dsi.esprit.tn.Config.JpaConfig;
 import dsi.esprit.tn.Payload.Request.SignupRequest;
 import dsi.esprit.tn.security.UserDetailsImpl;
 import dsi.esprit.tn.security.jwt.JwtUtils;
@@ -40,7 +41,12 @@ public class AuthController {
 
   @Autowired
   private IUserServiceFeign userServiceFeign;
-
+//  @Autowired
+//  private JpaConfig em;
+//  @GetMapping("/users")
+//  public int numberOfUsers() {
+//    return em.numberOfUsers();
+//  }
   @PostMapping("/signin")
   public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
 
