@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import dsi.esprit.tn.Payload.Request.SignupRequest;
 import dsi.esprit.tn.security.UserDetailsImpl;
 import dsi.esprit.tn.security.jwt.JwtUtils;
-import dsi.esprit.tn.services.IUserServiceFeign;
+import dsi.esprit.tn.services.IuserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseCookie;
@@ -40,7 +40,7 @@ public class AuthController {
   JwtUtils jwtUtils;
 
   @Autowired
-  private IUserServiceFeign userServiceFeign;
+  IuserServiceImpl userService;
 //  @Autowired
 //  private JpaConfig em;
 //  @GetMapping("/users")
@@ -68,10 +68,9 @@ public class AuthController {
             roles));
   }
 
-  @PostMapping("/signup")
+  @PostMapping("/auth/signup")
   public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signUpRequest) {
-    userServiceFeign.registerUser(signUpRequest);
-    return ResponseEntity.ok(new MessageResponse("User registered successfully!"));
+    return userService.Signup(signUpRequest);
   }
   @GetMapping("/usermstest")
   public ResponseEntity<?> usermsTest() {
